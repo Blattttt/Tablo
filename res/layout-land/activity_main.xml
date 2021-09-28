@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/IndantView"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/TeamRussia"
+        android:textSize="@dimen/SizeTextTeam" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@dimen/IndantView"
+        android:text="@string/SSSRTeam"
+        android:gravity="center"
+        android:textSize="@dimen/SizeTextTeam" />
+
+    <ImageView
+        android:layout_width="@dimen/HightWightImg"
+        android:layout_height="@dimen/HightWightImg"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/IndantView"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/img_1" />
+
+    <ImageView
+        android:layout_width="@dimen/HightWightImg"
+        android:layout_height="@dimen/HightWightImg"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/IndantView"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/imp_2" />
+
+    <TextView
+        android:id="@+id/SSSR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="200dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:textSize="@dimen/TextPoibtsSize" />
+    <TextView
+        android:id="@+id/Russia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:textSize="@dimen/TextPoibtsSize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:textSize="@dimen/TextPoibtsSize"
+        android:text="@string/colon"
+        />
+    <Button
+        android:layout_width="@dimen/WidhtButton"
+        android:layout_height="@dimen/HightButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/IndantView"
+        android:layout_marginTop="170dp"
+        android:backgroundTint="@color/purple_200"
+        android:onClick="ClickRussia"
+        android:text="@string/ButtonRussia"
+        />
+    <Button
+        android:layout_width="@dimen/WidhtButton"
+        android:layout_height="@dimen/HightButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/IndantView"
+        android:layout_marginTop="170dp"
+        android:backgroundTint="@color/purple_200"
+        android:onClick="ClickSSSR"
+        android:text="@string/ButtonSSSR"/>
+
+    <Button
+        android:layout_width="@dimen/WidhtButton"
+        android:layout_height="@dimen/HightButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:backgroundTint="@color/purple_200"
+        android:onClick="ClickResrt"
+        android:text="@string/ButtonReset"/>
+
+</RelativeLayout>

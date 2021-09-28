@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">tablo</string>
+    <string name="TeamRussia">Russia</string>
+    <string name="SSSRTeam">СССР</string>
+    <string name="colon">:</string>
+    <string name="ButtonRussia">очко России</string>
+    <string name="ButtonSSSR">очко СССР</string>
+    <string name="ButtonReset">сброс</string>
+</resources>

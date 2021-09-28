@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="SizeTextTeam">20sp</dimen>
+    <dimen name="IndantView">30dp</dimen>
+    <dimen name="HightWightImg">90dp</dimen>
+    <dimen name="TextPoibtsSize">72sp</dimen>
+    <dimen name="WidhtButton">110dp</dimen>
+    <dimen name="HightButton">60dp</dimen>
+</resources>
